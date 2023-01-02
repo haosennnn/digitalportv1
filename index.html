@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio</title>
+
+    <!-- CSS ====================================== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- BOXICONS ================================ -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!-- GSAP ======================================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- THREEJS ================================================= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- HOVER EFFECT ==================================================== -->
+    <script src="hover-effect.umd.js"></script>
+
+    <!-- SWIPER CSS ====================================================== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- SWIPER JS ========================================================== -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- SCROLL REVEAL ANIMATION ========================================= -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <div class="loading">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Intro Stuff -->
+    <section class="header">
+      <div class="intro-text">Welcome to Haosen's portfolio!</div>
+      <div class="arrow-svg-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+          <path
+            fill="currentColor"
+            d="M12 14.95q-.2 0-.375-.063-.175-.062-.325-.212L6.675 10.05q-.275-.275-.262-.688.012-.412.287-.687.275-.275.7-.275.425 0 .7.275l3.9 3.9 3.925-3.925q.275-.275.688-.263.412.013.687.288.275.275.275.7 0 .425-.275.7l-4.6 4.6q-.15.15-.325.212-.175.063-.375.063Z"
+          />
+        </svg>
+      </div>
+    </section>
+    <!-- PROJECT SECTION ========================================= -->
+			<section class="section project" id="project">
+				<div class="container project-container">
+					<h2 class="section-title">my featured<br />projects</h2>
+					<div class="project-wrap">
+						<!-- Project 1===== -->
+						<div class="project-list p-1">
+							<div class="project-content-wrap">
+								<div class="project-media">
+									<a href="#">
+										<div class="project-img">
+											<div class="project-thumbnail project-thumbnail1"></div>
+										</div>
+									</a>
+								</div>
+
+								<div class="project-content">
+									<!-- <h3>Black Looser Gelly</h3> -->
+									<p>
+										A functional music app that allows users to play music and perform other basic features.
+									</p>
+									<div class="project-btn-container">
+										<a href="#" class="project-link">
+											<span class="project-link1">Music App</span>
+											<span class="project-link2">Java</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 2===== -->
+						<div class="project-list p-2">
+							<div class="project-content-wrap">
+								<div class="project-media">
+									<a href="#">
+										<div class="project-img">
+											<div class="project-thumbnail project-thumbnail2"></div>
+										</div>
+									</a>
+								</div>
+
+								<div class="project-content">
+									<!-- <h3>Black Looser Gelly</h3> -->
+									<p>
+										A food review website that resembles Michelin Star's webpage but offers a deeper review on restaurants.
+									</p>
+									<div class="project-btn-container">
+										<a href="#" class="project-link">
+											<span class="project-link1">Restaurant Blog</span>
+											<span class="project-link2">HTML, CSS, JS, GSAP, THREE.JS</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Project 3===== -->
+						<div class="project-list p-3">
+							<div class="project-content-wrap">
+								<div class="project-media">
+									<a href="#">
+										<div class="project-img">
+											<div class="project-thumbnail project-thumbnail3"></div>
+										</div>
+									</a>
+								</div>
+
+								<div class="project-content">
+									<!-- <h3>Black Looser Gelly</h3> -->
+									<p>
+										A more compact restaurant recview website connected to a data base, with features such as login, editable user profiles and the ability to comment
+									</p>
+									<div class="project-btn-container">
+										<a href="#" class="project-link">
+											<span class="project-link1">Restaurant Display</span>
+											<span class="project-link2">HTML, CSS, JS, NODE.JS, MYSQL</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						
+					</div>
+				</div>
+			</section>
+			<section class="socials">
+				<ul class="footer-social-links">
+					<li class="footer-social-link">
+						<a href="https://instagram.com/egonesciovos?igshid=MWI4MTIyMDE=">
+							<span>Ig</span>
+							<i class="bx bxl-instagram"></i>
+						</a>
+					</li>
+					<li class="footer-social-link">
+						<a href="mailto:ha0sennn@gmail.com@gmail.com">
+							<span>Gm</span>
+							<i class="bx bxl-gmail"></i>
+						</a>
+						
+					</li>
+					<li class="footer-social-link">
+						<a href="https://www.linkedin.com/in/huang-haosen-b62649206/">
+							<span>In</span>
+							<i class="bx bxl-linkedin"></i>
+						</a>
+					</li>
+					
+				</ul>
+			</section>
+
+  
+  </body>
+  <!-- MAIN JS ======================================== -->
+  <script src="main.js"></script>
+</html>
